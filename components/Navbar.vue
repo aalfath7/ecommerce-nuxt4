@@ -4,7 +4,7 @@
       <div class="flex justify-between h-16 items-center">
         <!-- logo -->
         <div class="flex-shrink-0">
-          <NuxtLink href="/" class="text-2xl font-bold text-orange-400"
+          <NuxtLink href="/" class="text-2xl font-bold text-orange-500"
             >ECommerce</NuxtLink
           >
         </div>
