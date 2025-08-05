@@ -1,16 +1,37 @@
 <template>
-  <section class="mx-2 py-5">
-    <div class="max-w-7xl rounded-lg bg-orange-400 mx-auto p-10 space-y-2">
-      <h1 class="text-3xl font-bold">Temukan Produk Impianmu!</h1>
-      <p>Belanja hemat dan mudah dengan berbagai pilihan produk berkualitas.</p>
+  <section class="bg-amber-50">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2">
+      <div class="">
+        <div class="py-24 space-y-5">
+          <div
+            class="inline-block text-sm tracking-widest px-2 py-1 bg-yellow-400 rounded-full"
+          >
+            WELCOME DISCOUNT
+          </div>
 
-      <div class="mt-6 space-x-3">
-        <NuxtLink to="/" class="bg-white rounded-full px-3 py-2"
-          >Mulai Belanja</NuxtLink
-        >
-        <NuxtLink to="/about" class="bg-white rounded-full px-3 py-2"
-          >Tentang Kami</NuxtLink
-        >
+          <h1 class="text-5xl font-bold">
+            BEST DEALS <br />
+            ENDLESS DEALS
+          </h1>
+
+          <p>
+            Discover the best deals across endless options,<br />
+            offering quality and unbeatable variety daily.
+          </p>
+
+          <NuxtLink
+            to="/"
+            class="inline-block bg-black hover:bg-gray-700 text-white font-thin px-5 py-3 rounded-full"
+            >Explore Deals</NuxtLink
+          >
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <img
+          class="w-1/2"
+          src="/svg/order-confirmed-2-48.svg"
+          alt="order confirmed ilustration"
+        />
       </div>
     </div>
   </section>

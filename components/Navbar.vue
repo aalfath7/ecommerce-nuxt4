@@ -1,10 +1,10 @@
 <template>
-  <nav class="bg-white border border-gray-100 shadow-sm top-0 z-50">
+  <nav class="sticky bg-white border border-gray-100 shadow-sm top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16 items-center">
         <!-- logo -->
         <div class="flex-shrink-0">
-          <NuxtLink href="/" class="text-2xl font-bold text-orange-500"
+          <NuxtLink href="/" class="text-2xl font-bold text-yellow-500"
             >ECommerce</NuxtLink
           >
         </div>
@@ -13,22 +13,22 @@
         <div class="hidden md:flex space-x-5 items-center">
           <NuxtLink
             to="/"
-            class="text-gray-700 hover:text-orange-600 text-medium"
+            class="text-gray-700 hover:text-yellow-600 text-medium"
             >Home</NuxtLink
           >
           <NuxtLink
             to="/"
-            class="text-gray-700 hover:text-orange-600 text-medium"
+            class="text-gray-700 hover:text-yellow-600 text-medium"
             >Product</NuxtLink
           >
           <NuxtLink
             to="/"
-            class="text-gray-700 hover:text-orange-600 text-medium"
+            class="text-gray-700 hover:text-yellow-600 text-medium"
             >Promo</NuxtLink
           >
           <NuxtLink
             to="/"
-            class="text-gray-700 hover:text-orange-600 text-medium"
+            class="text-gray-700 hover:text-yellow-600 text-medium"
             >Contact</NuxtLink
           >
         </div>
@@ -40,7 +40,7 @@
               <input
                 type="text"
                 placeholder="Search Products"
-                class="px-3 py-1 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                class="px-3 py-1 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400"
               />
             </div>
             <button>
@@ -63,28 +63,28 @@
       <div v-if="isOpen" class="md:hidden p-4">
         <NuxtLink
           to="/"
-          class="block py-2 text-gray-700 hover:text-orange-600 cursor-pointer"
+          class="block py-2 text-gray-700 hover:text-yellow-600 cursor-pointer"
           >Home</NuxtLink
         >
         <NuxtLink
           to="/"
-          class="block py-2 text-gray-700 hover:text-orange-600 cursor-pointer"
+          class="block py-2 text-gray-700 hover:text-yellow-600 cursor-pointer"
           >Product</NuxtLink
         >
         <NuxtLink
           to="/"
-          class="block py-2 text-gray-700 hover:text-orange-600 cursor-pointer"
+          class="block py-2 text-gray-700 hover:text-yellow-600 cursor-pointer"
           >Promo</NuxtLink
         >
         <NuxtLink
           to="/"
-          class="block py-2 text-gray-700 hover:text-orange-600 cursor-pointer"
+          class="block py-2 text-gray-700 hover:text-yellow-600 cursor-pointer"
           >Contact</NuxtLink
         >
         <input
           type="text"
           placeholder="Search Product..."
-          class="my-2 px-3 py-1 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-600"
+          class="my-2 px-3 py-1 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-600"
         />
       </div>
     </div>
